@@ -60,6 +60,51 @@
         <footer>
           <div class="bottom-line"> copyright @ 2025 Green Room: Devolopment By Avishka</div>
         </footer>
+        <h1>Hello</h1><br>
+     <button onclick="sayHello()">Clik Me</button><br>
+     <input placeholder="Enater a Number" type="number" id="numinput"/>
+    <button onclick="showsquare()">Get Square</button>
+    <p id="SquareResult"></p>
+    
+    
+    
+    
+     <p id="msg"></p>
+     <script>
+        totalapple = 45;
+        totalappleafterfristcostom = totalapple - 12;
+        totalappleaftersecondcostomer = totalappleafterfristcostom -8;
+
+
+        appleprice = 200;
+
+        console.log( totalappleaftersecondcostomer);
+        console.log(( totalapple - totalappleaftersecondcostomer) * appleprice );
+
+        cashierstar = 300;
+        cashierBalanceAfterFirstClass = cashierstar +1200*20;
+        cashierBalanceAftersecondClass = cashierBalanceAfterFirstClass +1200*20;
+
+
+        console.log(cashierBalanceAftersecondClass);
+        cashierBalanceAfterFirstClasspayment = cashierBalanceAftersecondClass - 1000* 20;
+
+
+        console.log(cashierBalanceAfterFirstClasspayment)
+
+        function sayHello() {
+            console.log("Cliked Me")
+
+
+        }
+        
+        function showsquare(){
+            let num = document.getElementById("numinput").value
+            console.log(num)
+            let result = num * num;
+             document.getElementById("SquareResult").textContent = result
+        }
+     </script>
       </body>
 
 
